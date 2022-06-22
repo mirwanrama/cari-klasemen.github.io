@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/epl.png" alt="EPL">
+    <h2><span>Cari</span>Klasemen</h2>
+  </header>
+
+  <div class="container">
+    <div class="container-input">
+      <label>- YEAR -</label>
+      <input type="text" class="input-value" placeholder="Search Year...">
+      <div class="btn">
+        <button class="button-search" type="button" id="button-search">Search</button>
+        <button class="button-reset" type="reset" id="button-reset">Reset</button>
+      </div>
+    </div>
+    <p class="catatan">* Data klasemen hanya terdapat tahun 2001 - 2021</p>
+
+    <hr>
+
+    <div class="kelasemen">
+      <table>
+        <tr>
+          <th>Rank</th>
+          <th>Logo</th>
+          <th>Name</th>
+          <th>W</th>
+          <th>D</th>
+          <th>L</th>
+          <th>GD +/-</th>
+          <th>Pts</th>
+        </tr>
+        <tr class="row-input"></tr>
+      </table>
+    </div>
+    <footer>
+      <p class="text-center">Copyright &copy; 2022 | build with <svg xmlns="http://www.w3.org/2000/svg" width="16"
+          height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+        </svg> and <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-cup-fill" viewBox="0 0 16 16">
+          <path
+            d="M1 2a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1h.5A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-.55a2.5 2.5 0 0 1-2.45 2h-8A2.5 2.5 0 0 1 1 12.5V2zm13 10h.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5H14v8z" />
+        </svg> by. MirwanRamadani</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
